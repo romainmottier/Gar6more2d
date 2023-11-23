@@ -1,0 +1,2 @@
+/usr/bin/ar qc libacouselasto.a CMakeFiles/acouselasto.dir/acouselasto.F90.o CMakeFiles/acouselasto.dir/sub_incid_ae.F90.o CMakeFiles/acouselasto.dir/sub_reflex_ae.F90.o CMakeFiles/acouselasto.dir/sub_transmitp_ae.F90.o CMakeFiles/acouselasto.dir/sub_transmits_ae.F90.o
+/usr/bin/ranlib libacouselasto.a

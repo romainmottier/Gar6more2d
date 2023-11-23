@@ -1,0 +1,2 @@
+/usr/bin/ar qc libacousporo.a CMakeFiles/acousporo.dir/acousporo.F90.o CMakeFiles/acousporo.dir/calccoeff_ap.F90.o CMakeFiles/acousporo.dir/sub_incid_ap.F90.o CMakeFiles/acousporo.dir/sub_reflex_ap.F90.o CMakeFiles/acousporo.dir/sub_transmitf_ap.F90.o CMakeFiles/acousporo.dir/sub_transmitpsi_ap.F90.o CMakeFiles/acousporo.dir/sub_transmits_ap.F90.o
+/usr/bin/ranlib libacousporo.a

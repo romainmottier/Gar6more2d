@@ -1,0 +1,8 @@
+# The fortran modules provided by this target.
+provides
+ m_const.mod
+ m_num.mod
+ m_phys.mod
+ m_result.mod
+ m_sismo.mod
+ m_source.mod
