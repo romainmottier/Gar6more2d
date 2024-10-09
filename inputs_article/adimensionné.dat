@@ -1,0 +1,18 @@
+4 infinite medium (1), free surface (2), wall boundary (3) or bilayered medium(4)
+0 first layer : acoustic (0) elastodynamic (1), poroelastic (2)
+2 Source derivative (Hermite functions derivative, i.e. 2 for a ricker source)
+10 Central frequency of the source 
+10 Amplitude of the source
+1.5e-1   Delay of the source
+0.1 Height of the source
+0.3 Height of the line of receivers
+-0.3  Abscissa of the first receiver
+-0.3  Abscissa of the last receiver
+1 Numbers of receivers
+0. Start time
+5e-1 Stop time
+1e-5 Time step
+1000 Number of intervals for the numerical computation of the convolution
+1.0 1.0 mu and rho
+1 second layer : acoustic (0) elastodynamic (1), poroelastic (2)
+10.497560976 20.995121951 2.624390244 mu, lambda and rho

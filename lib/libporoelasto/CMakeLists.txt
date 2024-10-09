@@ -1,0 +1,11 @@
+set ( src_files "" )
+
+    foreach ( ext IN ITEMS "f90" "F90" )
+        file ( GLOB_RECURSE _files "*.${ext}" )
+        set ( src_files ${src_files} ${_files} )
+    endforeach ()
+
+    message ( STATUS "Found: ${src_files}" )
+
+add_library (poroelasto STATIC  ${src_files}) 
+install(TARGETS poroelasto DESTINATION lib)

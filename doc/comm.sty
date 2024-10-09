@@ -1,0 +1,186 @@
+\newcommand{\nc}{\newcommand}
+\newcommand{\rnc}{\renewcommand}
+\newcommand{\nitem}{\item[{\red $\bullet$}]}
+\newcommand{\vitem}{\item[{\piv $\bullet$}]}
+\nc{\boule}{$\bullet$}
+\nc{\diese}{$\diamond$}
+\nc{\Div}{\nabla \cdot}
+\nc{\dv}{\mbox{div}}
+\nc{\dsp}{\displaystyle}
+\nc{\etoile}{$\star$}
+\nc{\fleche}{$\to$}
+\nc{\reel}{\mbox{\rm I$\!$R}}
+\nc{\complex}{C \!\!\!\! C}
+\nc{\entier}{Z \!\!\! Z}
+\nc{\entierp}{N \!\!\!\!\! N}
+\nc{\QQ}{\mbox{\rm I$\!\!\! $Q}}
+\nc{\underint}[1]{\dsp \underset{#1}{\int}}
+\nc{\vecteur}{\overrightarrow}
+\nc{\BM}[1]{\mbox{\boldmath{$#1$}}}
+\nc{\Dis}{$\mathcal{D}^{'} \left( \Omega \right)\:$}
+\nc{\ftDis}{$\mathcal{D} \left( \Omega \right)\:$}
+\nc{\Disbis}{$\mathcal{D}^{'} \left( \Omega \right)^{2}\:$}
+\nc{\ftDisbis}{$\mathcal{D} \left( \Omega \right)^{2}\:$}
+\nc{\PsD}{\Dis , \ftDis}
+\nc{\PsDbis}{\Disbis , \ftDisbis}
+\nc{\ind}{1 \!\!\hspace*{-0.5pt} 1}
+\nc{\x}{{\rm \bf x}}
+\nc{\ic}{{\rm i}}
+\rnc{\u}{{\bf u}}
+\rnc{\v}{{\bf v}}
+\nc{\w}{{\bf w}}
+\nc{\ps}{p^{\star}}
+\nc{\us}{u^{\star}}
+\nc{\hatps}{\hat{p}^{\star}}
+\nc{\hatus}{\hat{u}^{\star}}
+\nc{\Ps}{{\bf P}^{\star}}
+\nc{\vs}{{\bf v}^{\star}}
+\nc{\hatvs}{\hat{\bf v}^{\star}}
+\nc{\vd}{{\bf v}^{\diamond}}
+\nc{\hatvd}{\hat{\bf v}^{\diamond}}
+\nc{\hatgamd}{\hat{\BM \gamma}^{\diamond}}
+\nc{\hatgams}{\hat{\BM \gamma}^{\star}}
+\nc{\gamd}{{\BM \gamma}^{\diamond}}
+\nc{\gams}{{\BM \gamma}^{\star}}
+\nc{\Gamd}{{\BM \Gamma}^{\diamond}}
+\nc{\Vs}{{\bf V}^{\star}}
+\nc{\Vd}{{\bf V}^{\diamond}}
+\rnc{\k}{{\bf k}}
+\nc{\om}{\omega}
+\nc{\eps}{\varepsilon}
+\nc{\sig}{\zeta}
+\nc{\Cm}{\Bbb C}
+\nc{\Zm}{\Bbb Z}
+\nc{\e}{{\rm e}}
+\nc{\gam}{{\BM \gamma}}
+\nc{\ups}{{\BM \upsilon}}
+\nc{\Ups}{{\BM \Upsilon}}
+\nc{\psii}{{\BM \psi}}
+\nc{\psiis}{{\BM \psi}^{\star}}
+\nc{\psiid}{{\BM \psi}^{\diamond}}
+\nc{\xii}{{\BM \xi}}
+\rnc{\U}{{\bf U}}
+\rnc{\P}{{\bf P}}
+\nc{\V}{{\bf V}}
+\nc{\W}{{\bf W}}
+\nc{\Tau}{\mathcal{T}}
+\nc{\dTau}{\mathcal{T}^{\: '}}
+\nc{\Opml}{\Omega_{pml}}
+\nc{\Gam}{{\BM \Gamma}}
+\nc{\espU}{U_{d}^{r}}
+\nc{\espu}{{\color{bleuN}U_{d}^{r}}}
+\nc{\espV}{V_{d}^{r}}
+\nc{\espv}{{\color{bleuN} V_{d}^{r} }}
+\nc{\Nu}{\mathcal{V}}
+\nc{\tens}[1]{\underline{\underline{#1}}}
+\nc{\dm}{\frac{1}{2}}
+\nc{\ti}{\frac 32}
+\nc{\dlt}{\Delta t}
+\nc{\dlx}{\Delta x}
+\nc{\dly}{\Delta y}
+\nc{\tl}[1]{\tilde #1}
+%%%%%numerotation des equations
+\font\capfont=cmbx12 at 24.87 pt % or yinit, or...?
+\newbox\capbox \newcount\capl \def\a{A}
+\def\docappar{\medbreak\noindent\setbox\capbox\hbox{%
+\capfont\a\hskip0.15em}\hangindent=\wd\capbox%
+\capl=\ht\capbox\divide\capl by\baselineskip\advance\capl by1%
+\hangafter=-\capl%
+\hbox{\vbox to8pt{\hbox to0pt{\hss\box\capbox}\vss}}}
+\def\cappar{\afterassignment\docappar\noexpand\let\a }
+\makeatletter
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\@addtoreset{equation}{section}
+\makeatother
+%%%%%%%%%%%%%%%%%
+\newtheorem{The}{Theorem}[section]
+\newtheorem{Lem}{Lemme}[section]
+\newtheorem{Prop}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{coro}{Corollary}[section]
+\newtheorem{Remark}{Remark}[section]
+ \newtheorem{Demonstration}{Demonstration : }
+\renewcommand{\theDemonstration}{}
+\newenvironment{Dem}{\begin{Demonstration} $ $ \\ \rm}
+  {{\begin{flushright}$\blacksquare $\end{flushright}}\end{Demonstration}}
+ 
+\newtheorem{Def}{Definition}
+\newtheorem{Rem}{Remarque}[section]
+\newtheorem{Rappel}{Rappel}[section]
+\definecolor{Mycyan}{rgb}{0. ,0.5, 1.}
+\definecolor{Mycyanclaro}{rgb}{0. ,0.9, 1.}
+\definecolor{piv}{rgb}{0.2,0.8,0.2}
+\definecolor{pivert}{rgb}{0.2,0.8,0.2}
+\definecolor{reed}{rgb}{1,0,0}
+\definecolor{whi}{rgb}{1,1,1}
+\definecolor{blue}{rgb}{0,0,1}
+% \newcommand{\piv}{\color{pivert}}
+% \newcommand{\pivv}[1]{{\piv #1}}
+% \renewcommand{\blue}{\color{blue}}
+% \newcommand{\bluee}[1]{{\blue #1}}
+% \renewcommand{\magenta}{\color{magenta}}
+% \newcommand{\magg}[1]{{\magenta #1}}
+% \renewcommand{\red}{\color{reed}}
+% \renewcommand{\white}{\color{whi}}
+% \newcommand{\redd}[1]{{\red #1}}
+\newcommand{\derp}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\derpn}[3]{\frac{\partial^#1 #2}{\partial #3^#1}}
+\newcommand{\dert}[2]{\frac{d #1}{d #2}}
+\newcommand{\D}[2]{\frac{d #1}{d #2}}
+%\newcommand{\stc}{\stepcounter{equation}(\theequation)}
+\newcommand{\stc}{\stepcounter{equation}\arabic{equation}}
+\newcommand{\diver}{\mbox{ div }}
+\nc{\loota}{\hbox{\enspace{\vrule height 7pt depth 0pt width 7pt}}}
+\newenvironment{preuve}[1][]
+{\vspace{0.2cm}
+  \begin{list}{}{
+      \setlength{\listparindent}{0.cm}
+      \setlength{\leftmargin}{.05\linewidth}
+      \setlength{\rightmargin}{\leftmargin}
+      }
+  \item
+    $\rhd$ \small \textsc{Preuve #1~:\ }  }
+  {\hfill  $\lhd$ \end{list}    \vspace{0.2cm} }
+
+\newenvironment{proof}[1][]
+{\vspace{0.2cm}
+  \begin{list}{}{
+      \setlength{\listparindent}{0.cm}
+      \setlength{\leftmargin}{.05\linewidth}
+      \setlength{\rightmargin}{\leftmargin}
+      }
+  \item
+    $\rhd$ \small \textsc{Proof #1~:\ }  }
+  {\hfill  $\lhd$ \end{list}    \vspace{0.2cm} }
+% \makeatletter
+% \define@key{psset}{OffsetLabel}{\edef\psk@Label@Offset{#1}}
+% \define@key{psset}{AngleLabel}{\edef\psk@Angle@Label{#1}}
+% \define@key{psset}{OffsetArrows}{\edef\psk@Arrow@Offset{#1}}
+% \setkeys{psset}{OffsetLabel=0.5,OffsetArrows=0,AngleLabel=0}
+% \def\psArrows{\@ifnextchar[{\pst@Arrows}{\pst@Arrows[]}}
+% %
+% \def\pst@Arrows[#1](#2)(#3)#4{{%
+% \setkeys{psset}{#1}%
+% \psset{arrows=->,offset=\psk@Arrow@Offset}
+% \pcline[#1](#2)(#3)
+% \pcline[linestyle=none,offset=\psk@Label@Offset,arrows=-](#2)(#3)
+% \lput{\psk@Angle@Label}{#4}
+% }}
+% \makeatother
+\newcommand{\setR}{\hbox{I}\!\hbox{R}}
+\newcommand{\setN}{\hbox{I}\!\hbox{N}}
+
+\DeclareTextSymbol{\textbackslash}{T1}{92}
+   \newcommand{\nsubset}{\not\subset}
+%   \newcommand{\textflorin}{\textit{f}}
+   \newcommand{\setB}{{\mathord{\mathbb B}}}
+   \newcommand{\setC}{{\mathord{\mathbb C}}}
+   \newcommand{\setQ}{{\mathord{\mathbb Q}}}
+   \newcommand{\setZ}{{\mathord{\mathbb Z}}}
+   \newcommand{\coloncolon}{\mathrel{::}}
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

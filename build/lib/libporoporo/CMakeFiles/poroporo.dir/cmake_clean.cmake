@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/poroporo.dir/calccoefff_free_pp.F90.o"
+  "CMakeFiles/poroporo.dir/calccoefff_pp.F90.o"
+  "CMakeFiles/poroporo.dir/calccoefff_wall_pp.F90.o"
+  "CMakeFiles/poroporo.dir/calccoeffs_free_pp.F90.o"
+  "CMakeFiles/poroporo.dir/calccoeffs_pp.F90.o"
+  "CMakeFiles/poroporo.dir/calccoeffs_wall_pp.F90.o"
+  "CMakeFiles/poroporo.dir/poroporo.F90.o"
+  "CMakeFiles/poroporo.dir/sub_incid_pp_f.F90.o"
+  "CMakeFiles/poroporo.dir/sub_incid_pp_s.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexff_free_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexff_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexff_wall_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexfpsi_free_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexfpsi_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexfpsi_wall_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexfs_free_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexfs_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexfs_wall_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexsf_free_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexsf_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexsf_wall_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexspsi_free_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexspsi_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexspsi_wall_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexss_free_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexss_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_reflexss_wall_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_transmitff_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_transmitfpsi_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_transmitfs_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_transmitsf_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_transmitspsi_pp.F90.o"
+  "CMakeFiles/poroporo.dir/sub_transmitss_pp.F90.o"
+  "libporoporo.a"
+  "libporoporo.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang Fortran)
+  include(CMakeFiles/poroporo.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
