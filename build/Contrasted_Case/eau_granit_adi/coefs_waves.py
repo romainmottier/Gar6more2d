@@ -11,20 +11,22 @@ def lame_coefficients_fluid(Vp2, rho):
     return mu
 
 # Exemple d'utilisation :
-Vp_s  = 6000.0  # Vitesse des ondes P en m/s
-Vs    = 3000.0          # Vitesse des ondes S en m/s
-rho_s = 2690.0         # Masse volumique en kg/m^3
-Vp_f  = 1500.0
-rho_f = 1025.0
+Vp_s  = 4.0  # Vitesse des ondes P en m/s
+Vs    = 2.0          # Vitesse des ondes S en m/s
+rho_s = 2.624390244         # Masse volumique en kg/m^3
+Vp_f  = 1.0
+rho_f = 1.0
 
 lambda_, mu = lame_coefficients_solid(Vp_s, Vs, rho_s)
 print("\n")
 print("SOLIDE:")
-print("lambda =", lambda_)
 print("mu =", mu)
+print("lambda =", lambda_)
+print("rho =", rho_s)
 print("\n")
 mu = lame_coefficients_fluid(Vp_f, rho_f)
 print("FLUIDE:")
 print("mu =", mu)
+print("rho =", rho_f)
 print("\n")
 
