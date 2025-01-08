@@ -5,7 +5,7 @@
 1 Amplitude of the source
 0.15  Delay of the source
 0.125 Height of the source
--0.1 Height of the line of receivers
+-0.0 Height of the line of receivers
 -0.15  Abscissa of the first receiver
 -0.15  Abscissa of the last receiver
 1 Numbers of receivers
