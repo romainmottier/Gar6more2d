@@ -11,7 +11,7 @@
 1 Numbers of receivers
 0. Start time
 0.4 Stop time
-1e-5 Time step
+1e-6 Time step
 1000 Number of intervals for the numerical computation of the convolution
 1.0 1.0 mu and rho
 1 second layer : acoustic (0) elastodynamic (1), poroelastic (2)
