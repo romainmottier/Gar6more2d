@@ -10,7 +10,7 @@
 -0.1  Abscissa of the last receiver
 1 Numbers of receivers
 0. Start time
-1.2 Stop time
+1.4 Stop time
 1e-5 Time step
 1000 Number of intervals for the numerical computation of the convolution
 0.015625 0.25 mu and rho
