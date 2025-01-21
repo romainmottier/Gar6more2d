@@ -10,9 +10,9 @@
 -0.1  Abscissa of the last receiver
 1 Numbers of receivers
 0. Start time
-1.0 Stop time
+0.65 Stop time
 1e-5 Time step
 1000 Number of intervals for the numerical computation of the convolution
-0.015625 0.25 mu and rho
+0.125 0.5 mu and rho
 1 second layer : acoustic (0) elastodynamic (1), poroelastic (2)
-2784.375 4958.59375 550.0 mu, lambda and rho
+1.3 2.6 1.3 mu, lambda and rho
