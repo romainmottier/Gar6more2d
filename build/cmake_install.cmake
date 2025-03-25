@@ -1,4 +1,4 @@
-# Install script for directory: /home/mottierr/Codes/Gar6more/Gar6more2d
+# Install script for directory: /home/romain/GitHub/Gar6more2d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,14 +42,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Gar6more2D.out" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Gar6more2D.out")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Gar6more2D.out"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/mottierr/Codes/Gar6more/Gar6more2d/build/Gar6more2D.out")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/romain/GitHub/Gar6more2d/build/Gar6more2D.out")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Gar6more2D.out" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Gar6more2D.out")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -60,14 +60,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mottierr/Codes/Gar6more/Gar6more2d/build/mod/cmake_install.cmake")
-  include("/home/mottierr/Codes/Gar6more/Gar6more2d/build/lib/libacousacous/cmake_install.cmake")
-  include("/home/mottierr/Codes/Gar6more/Gar6more2d/build/lib/libacouselasto/cmake_install.cmake")
-  include("/home/mottierr/Codes/Gar6more/Gar6more2d/build/lib/libelastoelasto/cmake_install.cmake")
-  include("/home/mottierr/Codes/Gar6more/Gar6more2d/build/lib/libgeneral/cmake_install.cmake")
-  include("/home/mottierr/Codes/Gar6more/Gar6more2d/build/lib/libporoporo/cmake_install.cmake")
-  include("/home/mottierr/Codes/Gar6more/Gar6more2d/build/lib/libporoelasto/cmake_install.cmake")
-  include("/home/mottierr/Codes/Gar6more/Gar6more2d/build/lib/libacousporo/cmake_install.cmake")
+  include("/home/romain/GitHub/Gar6more2d/build/mod/cmake_install.cmake")
+  include("/home/romain/GitHub/Gar6more2d/build/lib/libacousacous/cmake_install.cmake")
+  include("/home/romain/GitHub/Gar6more2d/build/lib/libacouselasto/cmake_install.cmake")
+  include("/home/romain/GitHub/Gar6more2d/build/lib/libelastoelasto/cmake_install.cmake")
+  include("/home/romain/GitHub/Gar6more2d/build/lib/libgeneral/cmake_install.cmake")
+  include("/home/romain/GitHub/Gar6more2d/build/lib/libporoporo/cmake_install.cmake")
+  include("/home/romain/GitHub/Gar6more2d/build/lib/libporoelasto/cmake_install.cmake")
+  include("/home/romain/GitHub/Gar6more2d/build/lib/libacousporo/cmake_install.cmake")
 
 endif()
 
@@ -79,5 +79,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mottierr/Codes/Gar6more/Gar6more2d/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/romain/GitHub/Gar6more2d/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

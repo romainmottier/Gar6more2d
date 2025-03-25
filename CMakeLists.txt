@@ -44,7 +44,8 @@ add_dependencies(gene mod)
 set (EXECUTABLES Gar6more2D.out)
 
 add_executable (Gar6more2D.out  lib/bin/Gar6more2D.F90)
-target_link_libraries (Gar6more2D.out mod  acousacous   acouselasto acousporo elastoelasto poroporo poroelasto gene ${BLAS_blas_LIBRARY} ${LAPACK_lapack_LIBRARY} ${BLAS_openblas_LIBRARY} ) 
+target_link_libraries (Gar6more2D.out mod acousacous acouselasto acousporo elastoelasto poroporo poroelasto gene ${BLAS_LIBRARIES} ${LAPACK_LIBRARIES})
+
 
 # install executables and scripts
 install (TARGETS ${EXECUTABLES} 

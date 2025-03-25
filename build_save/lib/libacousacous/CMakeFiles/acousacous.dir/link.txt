@@ -1,0 +1,2 @@
+/usr/bin/ar qc libacousacous.a CMakeFiles/acousacous.dir/acousacous.F90.o CMakeFiles/acousacous.dir/sub_incid_aa.F90.o CMakeFiles/acousacous.dir/sub_reflex_aa.F90.o CMakeFiles/acousacous.dir/sub_reflex_free_aa.F90.o CMakeFiles/acousacous.dir/sub_reflex_wall_aa.F90.o CMakeFiles/acousacous.dir/sub_transmit_aa.F90.o
+/usr/bin/ranlib libacousacous.a

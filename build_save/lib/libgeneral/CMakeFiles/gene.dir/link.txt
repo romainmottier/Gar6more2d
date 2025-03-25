@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgene.a CMakeFiles/gene.dir/arrivaltime.F90.o CMakeFiles/gene.dir/derivee.F90.o CMakeFiles/gene.dir/path.F90.o CMakeFiles/gene.dir/source.F90.o
+/usr/bin/ranlib libgene.a
